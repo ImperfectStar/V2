@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fichas Online</title>
+    <link rel="stylesheet" href="Arquivos/style/index.css">
+</head>
+<body>
+    <div class="">
+        
+        <header>
+            <h1 class="titulo">Bem vindo ao Ficha Online</h1>
+        </header>
+        <main>
+            <article>
+                <div class="login-lateral">
+                        <div>
+                            <form action="Arquivos/cadastro/cadastro.php" class="form-container">
+                            <h1>Login</h1>
+                            <label for="username"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="username" required>
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <button type="submit" class="btn">Login</button>
+                            </form>
+                        </div>
+                        <a href="arquivos/paginas/home.html">Aperte aqui para prosseguir</a>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <div>
+                <div class="rodape">
+                    <h3>Obrigado por nos ceder seu tempo!</h3>
+                    <p>Esse site foi desenvolvido com a ajuda do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Curso em Video</a>!</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function showhide(nomeItem){
+            var itens = document.getElementById(nomeItem)
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        function mudar(x) {
+            x.classList.toggle("change");
+        }
+        function sidemenu(smenu){
+            if (smenu.style.display == 'flex') {
+                smenu.style.display = 'none'
+            } else {
+                smenu.style.display = 'flex'
+            }
+        }
+    </script>
+</body>
+</html>
