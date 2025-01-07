@@ -1,8 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 /*Configurações Globais*/
 *{
     padding: 0%;
     margin: 0%;
+    font-family: "Cinzel Decorative", serif;
+    text-align: center;
 }
 body{
     color: #585858;
@@ -90,7 +93,7 @@ body{
     border-radius: 60%;
 }
 .titulo{
-    justify-self: center;
+    text-align: center;
     margin: 100px auto auto auto;
     text-align: center;
     font-size: 2em;
@@ -105,7 +108,7 @@ body{
 .control{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     margin: auto;
 }
@@ -113,7 +116,80 @@ main article a{
     text-decoration: none;
     color: #585858;
 }
+.escolha{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+.left{
+    display: flex;
+    background-image: url(../imagens/Caminho-do-dragao.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    border: 1px solid #585858;
+    border-radius: 160px;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+.left a{
+    text-decoration: none;
+    color: #585858;
+}
+.left:hover{
+    width: 230px;
+    height: 230px;
+}
+.right{
+    display: flex;
+    background-image: url(../imagens/Caminho-da-luz.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    border: 1px solid #585858;
+    border-radius: 160px;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
 
+}
+.right a{
+    text-decoration: none;
+    color: #585858;
+}
+.right:hover{
+    width: 230px;
+    height: 230px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    margin: 20px;
+}
+p{
+    text-align: center;
+    font-size: 0.9em;
+    height: fit-content;
+    width: 900px;
+    margin: 30px auto;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+h3{
+    text-align: center;
+}
 /*Medias queries*/
 @media screen and (min-width: 320px){
     .media-queries{
@@ -158,7 +234,24 @@ main article a{
         background-color: #353535;
         float: right;
     }
+    p{
+        width: 290px;
     }
+    .left{
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+    }
+    .right{
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+    }
+    .video{
+        width: 300px;
+        height: fit-content;
+    }
+}
 @media screen and (min-width: 768px) {
     .media-queries{
         justify-content: center;
@@ -202,6 +295,20 @@ main article a{
         background-color: #353535;
         float: right;
     }
+    .left{
+        width: 200px;
+        height: 200px;
+        margin: 70px;
+    }
+    .right{
+        width: 200px;
+        height: 200px;
+        margin: 70px;
+    }
+    .video{
+        width: 560px;
+        height: fit-content;
+    }
 }
 @media screen and (min-width: 1024px){
     .titulo{
@@ -232,6 +339,9 @@ main article a{
         display: none;
         background-color: #353535;
         float: right;
+    }
+    p{
+        width: 700px;
     }
 }
 @media screen and (min-width: 1200px){
@@ -266,5 +376,8 @@ main article a{
         background-color: #353535;
         margin: 0%;
         float: right;
+    }
+    p{
+        width: 900px;
     }
 }
