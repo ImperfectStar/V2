@@ -24,6 +24,67 @@ body{
 .logout:hover{
     background-color: rgb(146, 0, 0);
 }
+/*imgs*/
+#img1{
+    background-image: url(../imagens/Classes/Barbarian.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img2{
+    background-image: url(../imagens/Classes/Bard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img3{
+    background-image: url(../imagens/Classes/Warlock.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img4{
+    background-image: url(../imagens/Classes/Cleric.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img5{
+    background-image: url(../imagens/Classes/Druid.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img6{
+    background-image: url(../imagens/Classes/Artificer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img7{
+    background-image: url(../imagens/Classes/Warrior.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img8{
+    background-image: url(../imagens/Classes/Thief.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img9{
+    background-image: url(../imagens/Classes/Mage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img10{
+    background-image: url(../imagens/Classes/Monk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img11{
+    background-image: url(../imagens/Classes/Templar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img12{
+    background-image: url(../imagens/Classes/Ranger.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /*Menu*/
 .menuani{
     display: block;
@@ -105,6 +166,12 @@ body{
     margin: 40px auto;
     font-size: 14pt;
 }
+.p-secundario{
+    text-align: center;
+    height: fit-content;
+    margin: 40px auto;
+    font-size: 12pt;
+}
 .control{
     display: flex;
     justify-content: center;
@@ -124,12 +191,18 @@ main article a{
     justify-self: left;
     border: 1px solid #35353583;
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 2em;
+    transition-duration: 0.5s;
+}
+.left a{
+    text-decoration: none;
+    color: #585858;
 }
 .left:hover{
-    
+    width: 250px;
+    height: 250px;
     .hide{
         display: block;
     }
@@ -140,13 +213,18 @@ main article a{
     align-content: center;
     border: 1px solid #35353583;
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 2em;
+    transition-duration: 0.5s;
+}
+.center a{
+    text-decoration: none;
+    color: #585858;
 }
 .center:hover{
-    transition-delay: 0.5s;
-    transition-timing-function: ease;
+    width: 250px;
+    height: 250px;
     .hide{
         display: block;
     }
@@ -157,13 +235,18 @@ main article a{
     justify-self: left;
     border: 1px solid #35353583;
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 2em;
+    transition-duration: 0.5s;
+}
+.right a{
+    text-decoration: none;
+    color: #585858;
 }
 .right:hover{
-    transition-delay: 0.5s;
-    transition-timing-function: ease;
+    width: 250px;
+    height: 250px;
     .hide{
         display: block;
     }

@@ -105,6 +105,12 @@ body{
     margin: 40px auto;
     font-size: 14pt;
 }
+.p-secundario{
+    text-align: center;
+    height: fit-content;
+    margin: 40px auto;
+    font-size: 12pt;
+}
 .control{
     display: flex;
     justify-content: center;
