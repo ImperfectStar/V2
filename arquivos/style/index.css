@@ -164,7 +164,7 @@ main article a{
 .login-lateral form input{
     width: 300px;
     height: 30px;
-    margin: auto;
+    margin: auto auto 30px auto ;
     padding: 5px;
     background-color: #b9b9b9;
     border: none;
@@ -176,7 +176,7 @@ main article a{
     margin: 30px auto;
 }
 .login-lateral form button{
-    margin: 50px auto;
+    margin: 20px auto;
     width: 300px;
     height: 30px;
     background-color: #a0a0a0;
