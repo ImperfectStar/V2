@@ -88,8 +88,8 @@ body{
 }
 /*Main*/
 .logo{
-    height: 40%;
-    width: 60%;
+    height: 30%;
+    width: 50%;
     border-radius: 60%;
 }
 .titulo{
@@ -133,8 +133,9 @@ main article a{
 }
 .left{
     display: flex;
-    background-image: url(../imagens/Caminho-do-dragao.jpg);
+    background-image: url(../imagens/Classes/Gm.jpg);
     background-size: cover;
+    background-position: center;
     width: 200px;
     height: 200px;
     margin: 80px;
@@ -149,12 +150,12 @@ main article a{
     color: #585858;
 }
 .left:hover{
-    width: 230px;
-    height: 230px;
+    width: 220px;
+    height: 220px;
 }
 .right{
     display: flex;
-    background-image: url(../imagens/Caminho-da-luz.jpg);
+    background-image: url(../imagens/Classes/Player.jpg);
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -171,8 +172,8 @@ main article a{
     color: #585858;
 }
 .right:hover{
-    width: 230px;
-    height: 230px;
+    width: 220px;
+    height: 220px;
 }
 ul{
     list-style: none;

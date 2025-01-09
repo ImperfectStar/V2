@@ -5,6 +5,9 @@
     padding: 0%;
     margin: 0%;
     font-family: "Cinzel Decorative", serif;
+    a{
+        margin: auto;
+    }
 }
 body{
     color: #585858;
