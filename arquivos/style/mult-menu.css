@@ -24,7 +24,7 @@ body{
 .logout:hover{
     background-color: rgb(146, 0, 0);
 }
-/*imgs*/
+/*imgs classes*/
 #img1{
     background-image: url(../imagens/Classes/Barbarian.jpg);
     background-size: cover;
@@ -84,6 +84,63 @@ body{
     background-image: url(../imagens/Classes/Ranger.jpg);
     background-size: cover;
     background-position: center;
+}
+/*img raças*/
+#imgr1{
+    background-image: url(../imagens/Raças/elf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#imgr2{
+    background-image: url(../imagens/Raças/dwarf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#imgr3{
+    background-image: url(../imagens/Raças/orc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#imgr4{
+    background-image: url(../imagens/Raças/Halfling.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#imgr5{
+    background-image: url(../imagens/Raças/Human.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#imgr6{
+    background-image: url(../imagens/Raças/Draconato.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#imgr7{
+    background-image: url(../imagens/Raças/Tiefling.jpg);
+    background-size: cover;
+}
+#imgr8{
+    background-image: url(../imagens/Raças/gnomo.jpg);
+    background-size: cover;
+}
+#imgr9{
+    background-image: url(../imagens/Raças/Sereia.jpg);
+    background-size: cover;
+}
+#imgr10{
+    background-image: url(../imagens/Raças/Medusa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#imgr11{
+    background-image: url(../imagens/Raças/Driad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#imgr12{
+    background-image: url(../imagens/Raças/Ostreon.jpg);
+    background-size: cover;
 }
 /*Menu*/
 .menuani{
@@ -184,6 +241,9 @@ main article a{
     text-decoration: none;
     color: #585858;
 }
+h3{
+    text-align: center;
+}
 /*Quadrados das Raças*/
 .left{
     text-align: center;
@@ -280,6 +340,9 @@ main article a{
         margin: 40px auto;
         font-size: 14pt;
     }
+    .p-secundario{
+        width: 290px;
+    }
     .control{
         display: flex;
         justify-content: center;
@@ -323,6 +386,8 @@ main article a{
         width: 500px;
         margin: 40px auto;
         font-size: 14pt;
+    }.p-secundario{
+        width: 500px;
     }
     .control{
         display: flex;
@@ -355,6 +420,9 @@ main article a{
         margin: 40px auto;
         font-size: 14pt;
     }
+    .p-secundario{
+        width: 800px;
+    }
     .control{
         display: flex;
         justify-content: center;
@@ -385,6 +453,9 @@ main article a{
         width: 1000px;
         margin: 40px auto;
         font-size: 14pt;
+    }
+    .p-secundario{
+        width: 1000px;
     }
     .control{
         display: flex;
