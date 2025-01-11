@@ -28,7 +28,6 @@ body{
 /*Menu*/
 .menuani{
     display: block;
-    position: sticky;
     cursor: pointer;
     height: 50px;
     width: 50px;
@@ -51,6 +50,29 @@ body{
 .hide{
     display: none;
     height: fit-content;
+}
+.seta{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 2% 0% 0% 2%;
+}
+.sbar1{
+    transform: translate(0, -7px) rotate(-45deg);
+    width: 30px;
+    height: 5px;
+    background-color: #585858;
+}
+.sbar3{
+    transform: translate(0, 7px) rotate(45deg);
+    width: 30px;
+    height: 5px;
+    background-color: #585858;
 }
 /*Tentativa de Overlay*/
 .mhide {
@@ -85,6 +107,16 @@ body{
     height: fit-content;
     width: 100%;
     top: 0%;
+    justify-content: space-between;
+}
+span{
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 70px;
+    color: #585858;
+    height: 50px;
+    width: 50px;
 }
 /*Main*/
 .logo{
