@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fichas</title>
+    <link rel="shortcut icon" href="../../imagens/DicePlayer.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../style/fichasmesas.css">
+</head>
+<body>
+    <div class="media-queries">
+        <div class="cabecao">
+            <nav class="mhide" id="itens">
+                <ul>
+                    <a href="../home.html"><img class="logo" src="../../imagens/logo.jpg" alt=""></a>
+                    <a href="../exficha.html">Exemplos de Ficha</a>
+                    <a href="../classes.html">Classes</a>
+                    <a href="../raças.html">Raças</a>
+                    <a href="../outras.html">Outras Mesas</a>
+                    <a href="../ideias.html">Ideias de Habilidades</a>
+                    <a href="../regras.html">Regras</a>
+                    <a class="logout" href="../../../index.html">Log Out</a>
+                </ul>
+            </nav>
+            <div class="menuani" id="menu" onclick="showhide('itens'), mudar(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <header>
+            <h1 class="titulo">text</h1>
+        </header>
+        <main>
+            <article class="options" id="ficha1">
+                <div class="img"></div>
+                <a href="Fichas/ficha.html">
+                    <div class="descriçao">
+                        <h2>text</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem possimus, veritatis omnis iusto deleniti esse sapiente porro quae vel fugiat, voluptatem asperiores dolores! Quisquam culpa similique cupiditate explicabo iure?</p>
+                    </div>
+                </a>
+                <div class="img1"></div>
+            </article>
+            <article>
+                <div class="img2">
+                </div>
+            </article>
+        </main>
+        <footer>
+            <div class="rodape">
+                <h3>Obrigado por nos ceder seu tempo!</h3>
+                <p>Esse site foi desenvolvido com a ajuda do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Curso em Video</a>!</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function showhide(nomeItem){
+            var itens = document.getElementById(nomeItem)
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        function mudar(x) {
+            x.classList.toggle("change");
+        }
+        function sidemenu(smenu){
+            if (smenu.style.display == 'flex') {
+                smenu.style.display = 'none'
+            } else {
+                smenu.style.display = 'flex'
+            }
+        }
+    </script>
+</body>
+</html>
