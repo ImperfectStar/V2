@@ -27,6 +27,11 @@ body{
 a{
     text-decoration: none;
 }
+/*textarea*/
+textarea{
+    margin:auto;
+
+}
 /*Menu*/
 .menuani{
     display: block;
@@ -117,10 +122,13 @@ a{
 .control{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
+    text-align: justify;
     width: 1200px;
-    margin: auto;
+    margin: 50px auto;
 }
 main article a{
     text-decoration: none;
@@ -205,12 +213,7 @@ h3{
         width: 290px;
     }
     .control{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
         width: 200px;
-        margin: auto;
     }
     .mhide {
         height: 60%;
@@ -251,12 +254,7 @@ h3{
         width: 500px;
     }
     .control{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
         width: 730px;
-        margin: auto;
     }
     .mhide {
         height: 60%;
@@ -285,12 +283,7 @@ h3{
         width: 800px;
     }
     .control{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
         width: 1000px;
-        margin: auto;
     }
     .mhide {
         height: 60%;
@@ -319,12 +312,7 @@ h3{
         width: 1000px;
     }
     .control{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
         width: 1200px;
-        margin: auto;
     }
     .mhide {
         height: 60%;
