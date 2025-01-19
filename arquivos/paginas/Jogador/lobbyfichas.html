@@ -33,17 +33,18 @@
         </header>
         <main>
             <section>
-                <article class="options" id="ficha1">
+                <article class="options" >
                     <div class="img"></div>
                     <a href="Fichas/ficha.html">
                         <div class="descriçao">
                             <h2>text</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem possimus, veritatis omnis iusto deleniti esse sapiente porro quae vel fugiat, voluptatem asperiores dolores! Quisquam culpa similique cupiditate explicabo iure?</p>
+                            <p id="ficha1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem possimus, veritatis omnis iusto deleniti esse sapiente porro quae vel fugiat, voluptatem asperiores dolores! Quisquam culpa similique cupiditate explicabo iure?</p>
                         </div>
                     </a>
-                    <Button class="img1" id="delet" onclick="deletador()"></Button>
+                    <Button class="img1" id="delet" onclick="deletador(ficha1)"></Button>
                 </article>
-                
+                <article class="ordem">
+                </article>
             </section>
             <section>
                 <article>
@@ -59,8 +60,6 @@
         </footer>
     </div>
     <script>
-        var delet = document.getElementById(ficha1).innerHTML;
-        alert ("delet");
         function showhide(nomeItem){
             var itens = document.getElementById(nomeItem)
             if (itens.style.display == 'block'){
@@ -78,6 +77,13 @@
             } else {
                 smenu.style.display = 'flex'
             }
+        }
+        function deletedor() {
+            document.getElementById("ficha1").innerHTML = "";
+        }
+        function magica() {
+            let html = document.getElementById("ficha1").innerHTML;
+            document.getElementById("ordem").innerHTML = html;
         }
     </script>
 </body>
