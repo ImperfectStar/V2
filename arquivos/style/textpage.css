@@ -107,7 +107,6 @@ body{
     height: fit-content;
     width: 100%;
     top: 0%;
-    justify-content: space-between;
 }
 span{
     font-family: 'Material Symbols Outlined';
