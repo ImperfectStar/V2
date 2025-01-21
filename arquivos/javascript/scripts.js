@@ -17,3 +17,7 @@ function sidemenu(smenu){
         smenu.style.display = 'flex'
     }
 }
+function ModoNoturno(){
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}

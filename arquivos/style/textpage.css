@@ -142,6 +142,30 @@ span{
     margin: 40px auto;
     font-size: 12pt;
 }
+.dark-mode{
+    background-color: rgb(0, 0, 25);
+    color: whitesmoke;
+}
+.op{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #a0a0a0;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: #b9b9b9;
+}
 .control{
     display: flex;
     justify-content: center;
