@@ -13,7 +13,7 @@
         <div class="cabecao">
             <nav class="mhide" id="itens">
                 <ul>
-                    <a href="../home.html"><img class="logo" src="../../imagens/logo.jpg" alt=""></a>
+                    <a href="../home.html"><img class="logo" src="../../../imagens/logo.jpg" alt=""></a>
                     <a href="../exficha.html">Exemplos de Ficha</a>
                     <a href="../classes.html">Classes</a>
                     <a href="../raças.html">Raças</a>
@@ -38,6 +38,15 @@
                 <div>
                     <p>|Nome| Ficha Modelo Owalker |</p>
                     <p>|Raça| Ficha |</p>
+                </div>
+            </article>
+
+            <article class="control">
+                <h2>Vida e Mana</h2>
+                <div>
+                    <p id="vida" >|Hp| 10 / 20 |</p>
+                    <p id="mana">|Mp| 20 / 20 |</p>
+                    <p id="estamina">|Sp| 20 / 20 |</p>
                 </div>
             </article>
 
@@ -102,24 +111,6 @@
         </footer>
     </div>
     <script>
-        function showhide(nomeItem){
-            var itens = document.getElementById(nomeItem)
-            if (itens.style.display == 'block'){
-                itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
-        }
-        function mudar(x) {
-            x.classList.toggle("change");
-        }
-        function sidemenu(smenu){
-            if (smenu.style.display == 'flex') {
-                smenu.style.display = 'none'
-            } else {
-                smenu.style.display = 'flex'
-            }
-        }
     </script>
 </body>
 </html>
